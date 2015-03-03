@@ -1,0 +1,730 @@
+﻿Log file open, 03/02/15 19:27:42
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.7.1-2462028+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Feb 26 2015 07:49:00
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.02-18.27.42:435][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.02-18.27.42:490][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.02-18.27.42:502][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.02-18.27.42:513][  0]LogInit: Object subsystem initialized
+[2015.03.02-18.27.42:515][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.02-18.27.42:515][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.02-18.27.42:515][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.02-18.27.42:515][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.02-18.27.42:515][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.02-18.27.42:515][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.02-18.27.42:515][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.02-18.27.42:515][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.02-18.27.42:522][  0]LogInit: Computer: MARVIN-PC
+[2015.03.02-18.27.42:522][  0]LogInit: User: Marvin
+[2015.03.02-18.27.42:522][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.02-18.27.42:522][  0]LogInit: High frequency timer resolution =3.320339 MHz
+[2015.03.02-18.27.42:522][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.03.02-18.27.42:523][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.02-18.27.42:523][  0]LogMemory: Process Physical Memory: 45.88 MB used, 45.88 MB peak
+[2015.03.02-18.27.42:523][  0]LogMemory: Process Virtual Memory: 22.33 MB used, 22.33 MB peak
+[2015.03.02-18.27.42:523][  0]LogMemory: Physical Memory: 2633.54 MB used, 8072.66 MB total
+[2015.03.02-18.27.42:523][  0]LogMemory: Virtual Memory: 282.18 MB used, 134217728.00 MB total
+[2015.03.02-18.27.42:549][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2015.03.02-18.27.42:549][  0]LogD3D11RHI: Adapter has 3956MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 2 output[s]
+[2015.03.02-18.27.42:552][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics (Feature Level 10_0)
+[2015.03.02-18.27.42:552][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.03.02-18.27.42:553][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.02-18.27.42:553][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.02-18.27.42:553][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.02-18.27.42:556][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.02-18.27.42:568][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.02-18.27.42:632][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.02-18.27.42:795][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.02-18.27.45:140][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.02-18.27.45:736][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.02-18.27.45:800][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.02-18.27.45:842][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Marvin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.02-18.27.45:842][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Marvin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.02-18.27.45:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.02-18.27.45:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.02-18.27.45:962][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.02-18.27.45:975][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marvin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.02-18.27.46:271][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.02-18.27.46:271][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.02-18.27.46:675][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.02-18.27.46:753][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.02-18.27.47:570][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.02-18.27.47:797][  0]SourceControl: Info Source control is disabled
+[2015.03.02-18.27.47:798][  0]SourceControl: Info Source control is disabled
+[2015.03.02-18.27.47:798][  0]SourceControl: Info Source control is disabled
+[2015.03.02-18.27.47:798][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.02-18.27.47:798][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.02-18.27.47:807][  0]SourceControl: Info Source control is disabled
+[2015.03.02-18.27.48:003][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.02-18.27.48:003][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.02-18.27.48:090][  0]LogEngine: Initializing Engine...
+[2015.03.02-18.28.09:273][  0]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.02-18.28.09:283][  0]LogInit: FAudioDevice initialized.
+[2015.03.02-18.28.09:323][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.02-18.28.09:343][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Marvin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.02-18.28.09:348][  0]LogInit: Texture streaming: Enabled
+[2015.03.02-18.28.09:442][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.02-18.28.09:442][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.1-2462028+++depot+UE4-Releases+4.7
+[2015.03.02-18.28.09:442][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.1-2462028+++depot+UE4-Releases+4.7
+[2015.03.02-18.28.09:442][  0]LogAnalytics: SetUserId b62749c645e60b932c07e89fc35705ac|5c42ae086aa548c9a2fcd0cdd646e0cb|17edb7c8-2ee6-4e9f-8e4b-c7a6239d30d1
+[2015.03.02-18.28.09:442][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.02-18.28.09:500][  0]LogInit: Transaction tracking system initialized
+[2015.03.02-18.28.09:678][  0]BlueprintLog: New page: Editor Load
+[2015.03.02-18.28.09:713][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.03.02-18.28.09:713][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.02-18.28.10:338][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.02-18.28.10:753][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.02-18.28.11:011][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.02-18.28.11:012][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.02-18.28.11:016][  0]LogConsoleResponse:Display: 
+[2015.03.02-18.28.11:145][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.02-18.28.11:293][  0]SourceControl: Info Source control is disabled
+[2015.03.02-18.28.11:293][  0]Cmd: MAP LOAD FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.02-18.28.11:293][  0]LightingResults: New page: Lighting Build
+[2015.03.02-18.28.11:306][  0]MapCheck: New page: Map Check
+[2015.03.02-18.28.11:306][  0]LightingResults: New page: Lighting Build
+[2015.03.02-18.28.11:312][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027395D4540
+[2015.03.02-18.28.12:068][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.02-18.28.12:068][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.03.02-18.28.12:069][  0]Cmd: MAP CHECKDEP
+[2015.03.02-18.28.12:069][  0]MapCheck: New page: Minimal_Default - Mar 2, 2015, 8:28:12 PM
+[2015.03.02-18.28.12:147][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.099ms to complete.
+[2015.03.02-18.28.12:147][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.854
+[2015.03.02-18.28.12:290][  0]LogCollectionManager: Loaded 0 collections in 0.001425 seconds
+[2015.03.02-18.28.12:298][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 1696 classes and 261 folders.
+[2015.03.02-18.28.12:333][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.03.02-18.28.12:389][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.02-18.28.12:390][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.02-18.28.12:398][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.02-18.28.12:426][  0]LogLoad: Full Startup: 51.82 seconds (BP compile: 0.08 seconds)
+[2015.03.02-18.28.12:987][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x584 (Frame:2).
+[2015.03.02-18.28.14:136][  4]LogAssetRegistry: Asset discovery search completed in 4.4337 seconds
+[2015.03.02-18.28.37:457][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.02-18.29.34:111][683]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Marvin/Desktop/Gandalf/1.FBX)
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Model, ItemCount : 51
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: NodeAttribute, ItemCount : 91
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Material, ItemCount : 12
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Texture, ItemCount : 12
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: AnimationCurve, ItemCount : 306
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: AnimationCurveNode, ItemCount : 102
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Deformer, ItemCount : 42
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.03.02-18.29.34:119][683]LogFbx: ItemName: Video, ItemCount : 12
+[2015.03.02-18.29.36:153][683]LogFbx: Loading FBX Scene from C:/Users/Marvin/Desktop/Gandalf/1.FBX
+[2015.03.02-18.29.36:185][683]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.02-18.29.36:190][683]LogFbx: =================================================
+[2015.03.02-18.29.36:190][683]LogFbx: Dumping Node START [smdimport] 
+[2015.03.02-18.29.36:190][683]LogFbx: 	Total Deformer Count 1384414080.
+[2015.03.02-18.29.36:190][683]LogFbx: 		[Node 1]  (Type Skin).
+[2015.03.02-18.29.36:190][683]LogFbx: =================================================
+[2015.03.02-18.29.36:190][683]LogFbx: 	Attribute () Type (4).
+[2015.03.02-18.29.36:190][683]LogFbx: 		[Node Attribute Child 1] smdimport (Type Mesh).
+[2015.03.02-18.29.36:190][683]LogFbx: Dumping Node END [smdimport]
+[2015.03.02-18.29.36:191][683]LogFbx: =================================================
+[2015.03.02-18.29.36:191][683]LogFbx: Dumping Node START [smdimport] 
+[2015.03.02-18.29.36:191][683]LogFbx: 	Total Deformer Count 1384414080.
+[2015.03.02-18.29.36:191][683]LogFbx: 		[Node 1]  (Type Skin).
+[2015.03.02-18.29.36:191][683]LogFbx: =================================================
+[2015.03.02-18.29.36:191][683]LogFbx: 	Attribute () Type (4).
+[2015.03.02-18.29.36:191][683]LogFbx: 		[Node Attribute Child 1] smdimport (Type Mesh).
+[2015.03.02-18.29.36:191][683]LogFbx: Dumping Node END [smdimport]
+[2015.03.02-18.29.36:196][683]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node smdimport : Not all the deformers are stored in this BindPose
+[2015.03.02-18.29.36:196][683]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2015.03.02-18.29.36:197][683]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - smdimport
+[2015.03.02-18.29.36:197][683]LogFbx:Warning: Recreating bind pose succeeded.
+[2015.03.02-18.29.36:200][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon_2_tga'
+[2015.03.02-18.29.36:200][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon_2_tga'
+[2015.03.02-18.29.36:200][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_weapon_2_tga.slow_weapon_2_tga'
+[2015.03.02-18.29.36:203][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon_2'
+[2015.03.02-18.29.36:203][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon_2'
+[2015.03.02-18.29.36:203][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_weapon_2.slow_weapon_2'
+[2015.03.02-18.29.36:203][683]LogStreaming:Warning: Failed to read file 'slow_weapon_2.tga' error.
+[2015.03.02-18.29.36:203][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_weapon_2.tga' error.
+[2015.03.02-18.29.36:203][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/slow_weapon_2.tga' error.
+[2015.03.02-18.29.36:203][683]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_weapon_2.tga. Tried:
+ - slow_weapon_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_weapon_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/slow_weapon_2.tga
+[2015.03.02-18.29.36:206][683]LogMaterial: Missing cached shader map for material slow_weapon_2_tga, compiling. 
+[2015.03.02-18.29.36:234][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair_2_tga'
+[2015.03.02-18.29.36:234][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair_2_tga'
+[2015.03.02-18.29.36:234][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_hair_2_tga.slow_hair_2_tga'
+[2015.03.02-18.29.36:237][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair_2'
+[2015.03.02-18.29.36:237][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair_2'
+[2015.03.02-18.29.36:237][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_hair_2.slow_hair_2'
+[2015.03.02-18.29.36:237][683]LogStreaming:Warning: Failed to read file 'slow_hair_2.tga' error.
+[2015.03.02-18.29.36:238][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_hair_2.tga' error.
+[2015.03.02-18.29.36:238][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/slow_hair_2.tga' error.
+[2015.03.02-18.29.36:238][683]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_hair_2.tga. Tried:
+ - slow_hair_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_hair_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/slow_hair_2.tga
+[2015.03.02-18.29.36:239][683]LogMaterial: Missing cached shader map for material slow_hair_2_tga, compiling. 
+[2015.03.02-18.29.36:246][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_2_tga'
+[2015.03.02-18.29.36:247][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_2_tga'
+[2015.03.02-18.29.36:247][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_cape_2_tga.slow_cape_2_tga'
+[2015.03.02-18.29.36:251][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_2'
+[2015.03.02-18.29.36:251][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_2'
+[2015.03.02-18.29.36:251][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_cape_2.slow_cape_2'
+[2015.03.02-18.29.36:251][683]LogStreaming:Warning: Failed to read file 'slow_cape_2.tga' error.
+[2015.03.02-18.29.36:251][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_cape_2.tga' error.
+[2015.03.02-18.29.36:251][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/slow_cape_2.tga' error.
+[2015.03.02-18.29.36:251][683]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_cape_2.tga. Tried:
+ - slow_cape_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_cape_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/slow_cape_2.tga
+[2015.03.02-18.29.36:254][683]LogMaterial: Missing cached shader map for material slow_cape_2_tga, compiling. 
+[2015.03.02-18.29.36:262][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_clothes_tga'
+[2015.03.02-18.29.36:263][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_clothes_tga'
+[2015.03.02-18.29.36:263][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_clothes_tga.slow_clothes_tga'
+[2015.03.02-18.29.36:266][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_clothes'
+[2015.03.02-18.29.36:266][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_clothes'
+[2015.03.02-18.29.36:266][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_clothes.slow_clothes'
+[2015.03.02-18.29.36:266][683]LogStreaming:Warning: Failed to read file 'slow_clothes.tga' error.
+[2015.03.02-18.29.36:266][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_clothes.tga' error.
+[2015.03.02-18.29.36:268][683]LogTexture:Display: Building textures: slow_clothes (AutoDXT)
+[2015.03.02-18.29.36:370][683]LogMaterial: Missing cached shader map for material slow_clothes_tga, compiling. 
+[2015.03.02-18.29.36:379][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon_tga'
+[2015.03.02-18.29.36:380][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon_tga'
+[2015.03.02-18.29.36:380][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_weapon_tga.slow_weapon_tga'
+[2015.03.02-18.29.36:384][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon'
+[2015.03.02-18.29.36:384][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_weapon'
+[2015.03.02-18.29.36:384][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_weapon.slow_weapon'
+[2015.03.02-18.29.36:385][683]LogStreaming:Warning: Failed to read file 'slow_weapon.tga' error.
+[2015.03.02-18.29.36:385][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_weapon.tga' error.
+[2015.03.02-18.29.36:388][683]LogTexture:Display: Building textures: slow_weapon (AutoDXT)
+[2015.03.02-18.29.36:585][683]LogMaterial: Missing cached shader map for material slow_weapon_tga, compiling. 
+[2015.03.02-18.29.36:595][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_translucent_tga'
+[2015.03.02-18.29.36:595][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_translucent_tga'
+[2015.03.02-18.29.36:595][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_cape_translucent_tga.slow_cape_translucent_tga'
+[2015.03.02-18.29.36:598][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_translucent'
+[2015.03.02-18.29.36:599][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_translucent'
+[2015.03.02-18.29.36:599][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_cape_translucent.slow_cape_translucent'
+[2015.03.02-18.29.36:599][683]LogStreaming:Warning: Failed to read file 'slow_cape_translucent.tga' error.
+[2015.03.02-18.29.36:599][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_cape_translucent.tga' error.
+[2015.03.02-18.29.36:599][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/slow_cape_translucent.tga' error.
+[2015.03.02-18.29.36:599][683]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_cape_translucent.tga. Tried:
+ - slow_cape_translucent.tga
+ - C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_cape_translucent.tga
+ - C:/Users/Marvin/Desktop/Gandalf/slow_cape_translucent.tga
+[2015.03.02-18.29.36:601][683]LogMaterial: Missing cached shader map for material slow_cape_translucent_tga, compiling. 
+[2015.03.02-18.29.36:609][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_tga'
+[2015.03.02-18.29.36:610][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape_tga'
+[2015.03.02-18.29.36:610][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_cape_tga.slow_cape_tga'
+[2015.03.02-18.29.36:612][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape'
+[2015.03.02-18.29.36:613][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_cape'
+[2015.03.02-18.29.36:613][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_cape.slow_cape'
+[2015.03.02-18.29.36:613][683]LogStreaming:Warning: Failed to read file 'slow_cape.tga' error.
+[2015.03.02-18.29.36:613][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_cape.tga' error.
+[2015.03.02-18.29.36:617][683]LogTexture:Display: Building textures: slow_cape (AutoDXT)
+[2015.03.02-18.29.37:342][683]LogMaterial: Missing cached shader map for material slow_cape_tga, compiling. 
+[2015.03.02-18.29.37:352][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face_2_tga'
+[2015.03.02-18.29.37:352][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face_2_tga'
+[2015.03.02-18.29.37:352][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_face_2_tga.slow_face_2_tga'
+[2015.03.02-18.29.37:357][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face_2'
+[2015.03.02-18.29.37:357][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face_2'
+[2015.03.02-18.29.37:357][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_face_2.slow_face_2'
+[2015.03.02-18.29.37:357][683]LogStreaming:Warning: Failed to read file 'slow_face_2.tga' error.
+[2015.03.02-18.29.37:357][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_face_2.tga' error.
+[2015.03.02-18.29.37:357][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/slow_face_2.tga' error.
+[2015.03.02-18.29.37:357][683]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_face_2.tga. Tried:
+ - slow_face_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_face_2.tga
+ - C:/Users/Marvin/Desktop/Gandalf/slow_face_2.tga
+[2015.03.02-18.29.37:360][683]LogMaterial: Missing cached shader map for material slow_face_2_tga, compiling. 
+[2015.03.02-18.29.37:370][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_eyes_tga'
+[2015.03.02-18.29.37:370][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_eyes_tga'
+[2015.03.02-18.29.37:370][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_eyes_tga.slow_eyes_tga'
+[2015.03.02-18.29.37:375][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face'
+[2015.03.02-18.29.37:375][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face'
+[2015.03.02-18.29.37:375][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_face.slow_face'
+[2015.03.02-18.29.37:377][683]LogTexture:Display: Building textures: slow_face (AutoDXT)
+[2015.03.02-18.29.37:623][683]LogMaterial: Missing cached shader map for material slow_eyes_tga, compiling. 
+[2015.03.02-18.29.37:634][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face_tga'
+[2015.03.02-18.29.37:634][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face_tga'
+[2015.03.02-18.29.37:634][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_face_tga.slow_face_tga'
+[2015.03.02-18.29.37:638][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face'
+[2015.03.02-18.29.37:639][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_face'
+[2015.03.02-18.29.37:639][683]LogStreaming:Warning: Failed to read file 'slow_face.tga' error.
+[2015.03.02-18.29.37:639][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_face.tga' error.
+[2015.03.02-18.29.37:641][683]LogTexture:Display: Building textures: slow_face (AutoDXT)
+[2015.03.02-18.29.37:835][683]LogMaterial: Missing cached shader map for material slow_face_tga, compiling. 
+[2015.03.02-18.29.37:846][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair_tga'
+[2015.03.02-18.29.37:846][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair_tga'
+[2015.03.02-18.29.37:846][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_hair_tga.slow_hair_tga'
+[2015.03.02-18.29.37:850][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair'
+[2015.03.02-18.29.37:850][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hair'
+[2015.03.02-18.29.37:850][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_hair.slow_hair'
+[2015.03.02-18.29.37:850][683]LogStreaming:Warning: Failed to read file 'slow_hair.tga' error.
+[2015.03.02-18.29.37:850][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_hair.tga' error.
+[2015.03.02-18.29.37:852][683]LogTexture:Display: Building textures: slow_hair (AutoDXT)
+[2015.03.02-18.29.38:054][683]LogMaterial: Missing cached shader map for material slow_hair_tga, compiling. 
+[2015.03.02-18.29.38:064][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hands_tga'
+[2015.03.02-18.29.38:065][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hands_tga'
+[2015.03.02-18.29.38:065][683]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/slow_hands_tga.slow_hands_tga'
+[2015.03.02-18.29.38:069][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hands'
+[2015.03.02-18.29.38:069][683]LogLinker:Warning: Can't find file '/Game/StarterContent/slow_hands'
+[2015.03.02-18.29.38:069][683]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/slow_hands.slow_hands'
+[2015.03.02-18.29.38:070][683]LogStreaming:Warning: Failed to read file 'slow_hands.tga' error.
+[2015.03.02-18.29.38:070][683]LogStreaming:Warning: Failed to read file 'C:/Users/Marvin/Desktop/Gandalf/..\Desktop\slow_hands.tga' error.
+[2015.03.02-18.29.38:074][683]LogTexture:Display: Building textures: slow_hands (AutoDXT)
+[2015.03.02-18.29.38:184][683]LogMaterial: Missing cached shader map for material slow_hands_tga, compiling. 
+[2015.03.02-18.29.38:215][683]LogFbx:Warning: Bones digested - 50  Depth of hierarchy - 12
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 0: 145 rigid vertices, 0 soft vertices, 1 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 1: 165 rigid vertices, 266 soft vertices, 2 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 2: 0 rigid vertices, 166 soft vertices, 6 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 3: 294 rigid vertices, 1155 soft vertices, 18 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 4: 233 rigid vertices, 0 soft vertices, 1 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 5: 0 rigid vertices, 48 soft vertices, 2 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 6: 2 rigid vertices, 431 soft vertices, 6 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 7: 37 rigid vertices, 60 soft vertices, 2 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 8: 42 rigid vertices, 0 soft vertices, 1 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 9: 1050 rigid vertices, 40 soft vertices, 2 active bones
+[2015.03.02-18.29.38:308][683]LogSkeletalMesh: Chunk 10: 187 rigid vertices, 329 soft vertices, 2 active bones
+[2015.03.02-18.29.38:309][683]LogSkeletalMesh: Chunk 11: 489 rigid vertices, 1213 soft vertices, 32 active bones
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 159 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 606 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 216 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 2335 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 245 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 60 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 750 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 147 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 8: Material=8, Chunk=8, 54 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 9: Material=9, Chunk=9, 2100 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 10: Material=10, Chunk=10, 726 triangles
+[2015.03.02-18.29.38:325][683]LogSkeletalMesh: Section 11: Material=11, Chunk=11, 2694 triangles
+[2015.03.02-18.29.38:328][683]LogLinker:Warning: Can't find file '/Game/StarterContent/1_PhysicsAsset'
+[2015.03.02-18.29.38:328][683]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/StarterContent/1_PhysicsAsset.1_PhysicsAsset'
+[2015.03.02-18.29.38:334][683]LogLinker:Warning: Can't find file '/Game/StarterContent/1_Skeleton'
+[2015.03.02-18.29.38:334][683]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/StarterContent/1_Skeleton.1_Skeleton'
+[2015.03.02-18.29.38:347][683]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.03.02-18.29.38:347][683]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+ValveBiped.forward  
+ValveBiped.Bip01_L_Wrist  
+ValveBiped.Bip01_R_Wrist  
+ValveBiped.weapon_bone  
+ValveBiped.weapon_bone_RHand  
+ValveBiped.weapon_bone_LHand  
+ValveBiped.weapon_bone_Clip  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.03.02-18.29.38:363][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.02-18.29.38:363][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.02-18.29.38:520][685]LogMaterial:Warning: Material /Game/StarterContent/slow_weapon_2_tga.slow_weapon_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:570][685]LogMaterial: Missing cached shader map for material slow_weapon_2_tga, compiling. 
+[2015.03.02-18.29.38:595][685]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:595][685]LogMaterial:Warning: Material /Game/StarterContent/slow_hair_2_tga.slow_hair_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:599][685]LogMaterial: Missing cached shader map for material slow_hair_2_tga, compiling. 
+[2015.03.02-18.29.38:620][685]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:620][685]LogMaterial:Warning: Material /Game/StarterContent/slow_cape_2_tga.slow_cape_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:622][685]LogMaterial: Missing cached shader map for material slow_cape_2_tga, compiling. 
+[2015.03.02-18.29.38:640][685]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:640][685]LogMaterial:Warning: Material /Game/StarterContent/slow_clothes_tga.slow_clothes_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:642][685]LogMaterial: Missing cached shader map for material slow_clothes_tga, compiling. 
+[2015.03.02-18.29.38:663][685]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:663][685]LogMaterial:Warning: Material /Game/StarterContent/slow_weapon_tga.slow_weapon_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:665][685]LogMaterial: Missing cached shader map for material slow_weapon_tga, compiling. 
+[2015.03.02-18.29.38:685][685]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:685][685]LogMaterial:Warning: Material /Game/StarterContent/slow_cape_translucent_tga.slow_cape_translucent_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:686][685]LogMaterial: Missing cached shader map for material slow_cape_translucent_tga, compiling. 
+[2015.03.02-18.29.38:707][685]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:707][685]LogMaterial:Warning: Material /Game/StarterContent/slow_cape_tga.slow_cape_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:709][685]LogMaterial: Missing cached shader map for material slow_cape_tga, compiling. 
+[2015.03.02-18.29.38:732][685]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:732][685]LogMaterial:Warning: Material /Game/StarterContent/slow_face_2_tga.slow_face_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:734][685]LogMaterial: Missing cached shader map for material slow_face_2_tga, compiling. 
+[2015.03.02-18.29.38:757][685]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:757][685]LogMaterial:Warning: Material /Game/StarterContent/slow_eyes_tga.slow_eyes_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:758][685]LogMaterial: Missing cached shader map for material slow_eyes_tga, compiling. 
+[2015.03.02-18.29.38:783][685]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:783][685]LogMaterial:Warning: Material /Game/StarterContent/slow_face_tga.slow_face_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:785][685]LogMaterial: Missing cached shader map for material slow_face_tga, compiling. 
+[2015.03.02-18.29.38:807][685]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:807][685]LogMaterial:Warning: Material /Game/StarterContent/slow_hair_tga.slow_hair_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:808][685]LogMaterial: Missing cached shader map for material slow_hair_tga, compiling. 
+[2015.03.02-18.29.38:831][685]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.38:831][685]LogMaterial:Warning: Material /Game/StarterContent/slow_hands_tga.slow_hands_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2015.03.02-18.29.38:833][685]LogMaterial: Missing cached shader map for material slow_hands_tga, compiling. 
+[2015.03.02-18.29.38:849][685]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.02-18.29.43:531][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.02-18.30.06:046][583]LogSavePackage: Save=463.051514ms
+[2015.03.02-18.30.06:046][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_tgaAD756E3247E7E049710CB59B2D9A3034.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_weapon_tga.uasset'
+[2015.03.02-18.30.06:095][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/1" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/1.uasset" SILENT=true
+[2015.03.02-18.30.06:509][583]LogSavePackage: Save=410.072296ms
+[2015.03.02-18.30.06:510][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1C6F6D9C5429B0F418CC34D9EBF7243E8.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/1.uasset'
+[2015.03.02-18.30.06:538][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/1_PhysicsAsset" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/1_PhysicsAsset.uasset" SILENT=true
+[2015.03.02-18.30.06:562][583]LogSavePackage: Save=18.077673ms
+[2015.03.02-18.30.06:562][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_PhysicsAsset46F500384D2ED936A7D678BD8216559A.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/1_PhysicsAsset.uasset'
+[2015.03.02-18.30.06:587][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/1_Skeleton" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/1_Skeleton.uasset" SILENT=true
+[2015.03.02-18.30.06:596][583]LogSavePackage: Save=3.863762ms
+[2015.03.02-18.30.06:596][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_SkeletonB4EAC817430165D69F8C048D58B8CFFA.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/1_Skeleton.uasset'
+[2015.03.02-18.30.06:620][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_cape" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_cape.uasset" SILENT=true
+[2015.03.02-18.30.07:391][583]LogSavePackage: Save=765.920288ms
+[2015.03.02-18.30.07:391][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_capeA638D9B648EE81D5316E1E983A370060.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_cape.uasset'
+[2015.03.02-18.30.07:953][583]LogSavePackage: Save=496.406830ms
+[2015.03.02-18.30.07:953][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_2_tga8A9635BE419778C0D8B596B29FC7D5A6.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_cape_2_tga.uasset'
+[2015.03.02-18.30.11:664][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_cape_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_cape_tga.uasset" SILENT=true
+[2015.03.02-18.30.11:875][583]LogSavePackage: Save=208.464249ms
+[2015.03.02-18.30.11:876][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_tgaA24E90EB4C995F2F5D047EB13B8E9DD2.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_cape_tga.uasset'
+[2015.03.02-18.30.12:431][583]LogSavePackage: Save=491.348328ms
+[2015.03.02-18.30.12:431][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_translucent_tga6F8E43F043B3ABB126011699F64DA456.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_cape_translucent_tga.uasset'
+[2015.03.02-18.30.12:479][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_clothes" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_clothes.uasset" SILENT=true
+[2015.03.02-18.30.13:229][583]LogSavePackage: Save=747.424255ms
+[2015.03.02-18.30.13:229][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_clothesA289BA71475F82FF96C692B98ABD32D4.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_clothes.uasset'
+[2015.03.02-18.30.13:555][583]LogSavePackage: Save=263.516479ms
+[2015.03.02-18.30.13:555][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_clothes_tga1125A9594FF40DC7BF1847B27043DC6A.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_clothes_tga.uasset'
+[2015.03.02-18.30.18:210][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_eyes_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_eyes_tga.uasset" SILENT=true
+[2015.03.02-18.30.18:464][583]LogSavePackage: Save=248.430359ms
+[2015.03.02-18.30.18:464][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_eyes_tgaCDACAF284E8A2720CEEDC1AA74C1A294.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_eyes_tga.uasset'
+[2015.03.02-18.30.18:491][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_face" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_face.uasset" SILENT=true
+[2015.03.02-18.30.18:927][583]LogSavePackage: Save=431.311371ms
+[2015.03.02-18.30.18:927][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face8EFF4B1E4E0E454B74EF1A88E74AB9CF.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_face.uasset'
+[2015.03.02-18.30.19:477][583]LogSavePackage: Save=493.645691ms
+[2015.03.02-18.30.19:477][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_2_tgaA022BE0A4376F7CEEBB0B696CBFA78AA.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_face_2_tga.uasset'
+[2015.03.02-18.30.21:443][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_face_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_face_tga.uasset" SILENT=true
+[2015.03.02-18.30.21:683][583]LogSavePackage: Save=235.929825ms
+[2015.03.02-18.30.21:683][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_tgaA211B8BF47722133E30DCA9AED6C3950.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_face_tga.uasset'
+[2015.03.02-18.30.21:712][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_hair" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hair.uasset" SILENT=true
+[2015.03.02-18.30.22:174][583]LogSavePackage: Save=456.836792ms
+[2015.03.02-18.30.22:174][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair0307C06D42400FDFDE5C6890921A6941.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hair.uasset'
+[2015.03.02-18.30.22:729][583]LogSavePackage: Save=492.581024ms
+[2015.03.02-18.30.22:729][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_2_tgaC3DB8BEB4F334B9775717B921CB49FBC.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hair_2_tga.uasset'
+[2015.03.02-18.30.24:885][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_hair_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hair_tga.uasset" SILENT=true
+[2015.03.02-18.30.25:210][583]LogSavePackage: Save=320.513672ms
+[2015.03.02-18.30.25:210][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_tga73E37487428332DB6BF80D99AB6CB96B.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hair_tga.uasset'
+[2015.03.02-18.30.25:241][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_hands" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hands.uasset" SILENT=true
+[2015.03.02-18.30.25:931][583]LogSavePackage: Save=686.908752ms
+[2015.03.02-18.30.25:931][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hands5D0EF40B47710F0BCABB06BBACFEED07.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hands.uasset'
+[2015.03.02-18.30.27:848][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_hands_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hands_tga.uasset" SILENT=true
+[2015.03.02-18.30.28:035][583]LogSavePackage: Save=184.550125ms
+[2015.03.02-18.30.28:036][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hands_tga4F52251F4DD7D132E92CB78CFFF0584A.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_hands_tga.uasset'
+[2015.03.02-18.30.28:051][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Charakter/slow_weapon" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_weapon.uasset" SILENT=true
+[2015.03.02-18.30.28:321][583]LogSavePackage: Save=267.449799ms
+[2015.03.02-18.30.28:321][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weaponDCCEF9CE4787DF8BD5FC38BAF6CFAE7B.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_weapon.uasset'
+[2015.03.02-18.30.28:792][583]LogSavePackage: Save=423.495300ms
+[2015.03.02-18.30.28:792][583]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_2_tgaFC117210439A66965ABE0989203C1583.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Charakter/slow_weapon_2_tga.uasset'
+[2015.03.02-18.30.44:512][907]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Charakter'
+[2015.03.02-18.32.57:688][ 51]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.03.02-18.32.57:757][ 51]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.02-18.32.57:934][ 52]LogRenderer:Warning: Reallocating scene render targets to support 1208x888 (Frame:13507).
+[2015.03.02-18.38.08:012][214]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.013
+[2015.03.02-18.38.08:015][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/1" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.03.02-18.38.08:107][214]LogSavePackage: Save=89.629700ms
+[2015.03.02-18.38.08:108][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_Auto15D50435B418F0DAF83ED1B97D791FAD0.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/1_Auto1.uasset'
+[2015.03.02-18.38.08:200][214]LogSavePackage: Save=75.513374ms
+[2015.03.02-18.38.08:201][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_2_tga_Auto15EB26D2344DE4A758CB81A878813BA2F.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_weapon_2_tga_Auto1.uasset'
+[2015.03.02-18.38.08:305][214]LogSavePackage: Save=87.442879ms
+[2015.03.02-18.38.08:306][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_2_tga_Auto1C71BF5F14CAA38B99B3E48A0529F4F17.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_hair_2_tga_Auto1.uasset'
+[2015.03.02-18.38.08:400][214]LogSavePackage: Save=79.554527ms
+[2015.03.02-18.38.08:401][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_2_tga_Auto113892CA7432077F1709E3E8C1A7C7F8B.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_cape_2_tga_Auto1.uasset'
+[2015.03.02-18.38.08:488][214]LogSavePackage: Save=70.353355ms
+[2015.03.02-18.38.08:488][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_clothes_tga_Auto153A3219347B5A63B75C379AFEFEC0E51.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_clothes_tga_Auto1.uasset'
+[2015.03.02-18.38.08:588][214]LogSavePackage: Save=85.345200ms
+[2015.03.02-18.38.08:588][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_clothes_Auto10D75658E4171177A856FF8B0AFAD673E.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_clothes_Auto1.uasset'
+[2015.03.02-18.38.08:688][214]LogSavePackage: Save=83.524300ms
+[2015.03.02-18.38.08:688][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_tga_Auto12DD2D1A24F2566344B93EF945F6B8BFB.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_weapon_tga_Auto1.uasset'
+[2015.03.02-18.38.08:789][214]LogSavePackage: Save=84.076057ms
+[2015.03.02-18.38.08:790][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_Auto12383FB6942F7415045EE57A0E9A09AD4.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_weapon_Auto1.uasset'
+[2015.03.02-18.38.08:889][214]LogSavePackage: Save=83.577911ms
+[2015.03.02-18.38.08:889][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_translucent_tga_Auto19ECA8216491610E5A03A5D9CF2B077C7.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_cape_translucent_tga_Auto1.uasset'
+[2015.03.02-18.38.08:991][214]LogSavePackage: Save=85.511147ms
+[2015.03.02-18.38.08:992][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_tga_Auto1FA98C953495F94DEB85CA59D72AE015F.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_cape_tga_Auto1.uasset'
+[2015.03.02-18.38.09:088][214]LogSavePackage: Save=77.212601ms
+[2015.03.02-18.38.09:088][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_Auto157E2982943440316E497C08453045C34.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_cape_Auto1.uasset'
+[2015.03.02-18.38.09:190][214]LogSavePackage: Save=84.307655ms
+[2015.03.02-18.38.09:191][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_2_tga_Auto1021FD4D84B3EA2471832D79E76A27A7E.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_face_2_tga_Auto1.uasset'
+[2015.03.02-18.38.09:285][214]LogSavePackage: Save=78.546799ms
+[2015.03.02-18.38.09:286][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_eyes_tga_Auto13766090141007B51DF864FB9FB869881.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_eyes_tga_Auto1.uasset'
+[2015.03.02-18.38.09:390][214]LogSavePackage: Save=89.647171ms
+[2015.03.02-18.38.09:391][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_Auto188937ED049DB5CC6849BEC87FF55BCB3.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_face_Auto1.uasset'
+[2015.03.02-18.38.09:486][214]LogSavePackage: Save=81.030579ms
+[2015.03.02-18.38.09:487][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_tga_Auto11E2F31FE4A5C33421F6975ABEF6C2587.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_face_tga_Auto1.uasset'
+[2015.03.02-18.38.09:590][214]LogSavePackage: Save=88.833397ms
+[2015.03.02-18.38.09:590][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_tga_Auto1489DFBE14EC74FA3205081A43770D78B.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_hair_tga_Auto1.uasset'
+[2015.03.02-18.38.09:685][214]LogSavePackage: Save=79.687347ms
+[2015.03.02-18.38.09:686][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_Auto1E4666FFF4CBBA602917228912A9B02A6.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_hair_Auto1.uasset'
+[2015.03.02-18.38.09:791][214]LogSavePackage: Save=85.590057ms
+[2015.03.02-18.38.09:792][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hands_tga_Auto191AD35564D9D865E2941EA98A13854D8.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_hands_tga_Auto1.uasset'
+[2015.03.02-18.38.09:890][214]LogSavePackage: Save=79.992134ms
+[2015.03.02-18.38.09:890][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hands_Auto1C2D6B66949716B1420080095AB2647C9.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/slow_hands_Auto1.uasset'
+[2015.03.02-18.38.09:993][214]LogSavePackage: Save=82.584938ms
+[2015.03.02-18.38.09:993][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_PhysicsAsset_Auto100DB601F4E4586F154FB4BB7984B757D.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/1_PhysicsAsset_Auto1.uasset'
+[2015.03.02-18.38.10:086][214]LogSavePackage: Save=77.084000ms
+[2015.03.02-18.38.10:087][214]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_Skeleton_Auto1334E67894183D1E3C79DA886493547F0.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/1_Skeleton_Auto1.uasset'
+[2015.03.02-18.38.10:095][214]LogFileHelpers: Auto-saving content packages took 2.083
+[2015.03.02-18.45.23:697][534]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.03.02-18.45.24:982][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.02-18.45.28:376][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.02-18.45.51:403][ 11]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.03.02-18.48.10:281][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002740CF9300
+[2015.03.02-18.48.10:281][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002740CFB380
+[2015.03.02-18.48.10:434][387]LogSavePackage: Save=81.075157ms
+[2015.03.02-18.48.10:434][387]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Minimal_Default_Auto27252C089401AF4A554D1E39822A748F8.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2015.03.02-18.48.10:445][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.182
+[2015.03.02-18.48.10:445][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2015.03.02-20.34.22:615][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/1" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/1.uasset" SILENT=true
+[2015.03.02-20.34.22:619][906]LogSavePackage: Save=2.261817ms
+[2015.03.02-20.34.22:619][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/10E9D4FA54B778A659DBBE381572E38C2.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/1.uasset'
+[2015.03.02-20.34.22:629][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/1_PhysicsAsset" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/1_PhysicsAsset.uasset" SILENT=true
+[2015.03.02-20.34.22:633][906]LogSavePackage: Save=2.247361ms
+[2015.03.02-20.34.22:633][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_PhysicsAsset5A2CD4AF4EBFFF48592971B203FE1EEC.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/1_PhysicsAsset.uasset'
+[2015.03.02-20.34.22:643][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/1_Skeleton" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/1_Skeleton.uasset" SILENT=true
+[2015.03.02-20.34.22:648][906]LogSavePackage: Save=2.154599ms
+[2015.03.02-20.34.22:648][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/1_SkeletonFADBAB6648704BEF97B47FBB01419EDC.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/1_Skeleton.uasset'
+[2015.03.02-20.34.22:845][906]LogSavePackage: Save=80.656822ms
+[2015.03.02-20.34.22:845][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/Minimal_Default1245F4874181806EE3B384BEDDF78223.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.03.02-20.34.22:927][906]LogFileHelpers: Saving map 'Minimal_Default' took 0.271
+[2015.03.02-20.34.22:929][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_cape" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape.uasset" SILENT=true
+[2015.03.02-20.34.22:934][906]LogSavePackage: Save=2.174477ms
+[2015.03.02-20.34.22:934][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_capeF77CD2784B0BA75141650C87A66D9FAC.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape.uasset'
+[2015.03.02-20.34.22:943][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_cape_2_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape_2_tga.uasset" SILENT=true
+[2015.03.02-20.34.22:947][906]LogSavePackage: Save=2.114844ms
+[2015.03.02-20.34.22:947][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_2_tgaA9B63B354E20E2AA1E472A9236D02013.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape_2_tga.uasset'
+[2015.03.02-20.34.22:956][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_cape_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape_tga.uasset" SILENT=true
+[2015.03.02-20.34.22:961][906]LogSavePackage: Save=2.089847ms
+[2015.03.02-20.34.22:961][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_tgaDBED72EF45B2248F415018807E13D725.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape_tga.uasset'
+[2015.03.02-20.34.22:975][906]LogSavePackage: Save=2.107616ms
+[2015.03.02-20.34.22:975][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_cape_translucent_tgaAA70189D464521C84FEBCC9BEE2DF9E8.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_cape_translucent_tga.uasset'
+[2015.03.02-20.34.22:984][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_clothes" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_clothes.uasset" SILENT=true
+[2015.03.02-20.34.22:988][906]LogSavePackage: Save=2.082318ms
+[2015.03.02-20.34.22:988][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_clothesA73EFC254A2AEC30375C729B26BAC546.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_clothes.uasset'
+[2015.03.02-20.34.22:997][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_clothes_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_clothes_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:002][906]LogSavePackage: Save=2.117555ms
+[2015.03.02-20.34.23:002][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_clothes_tga9B401647428E169AC20D3DA15BCF7F36.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_clothes_tga.uasset'
+[2015.03.02-20.34.23:011][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_eyes_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_eyes_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:015][906]LogSavePackage: Save=2.086534ms
+[2015.03.02-20.34.23:015][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_eyes_tgaDCB882294BDC175B59E59FA63237220D.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_eyes_tga.uasset'
+[2015.03.02-20.34.23:024][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_face" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_face.uasset" SILENT=true
+[2015.03.02-20.34.23:028][906]LogSavePackage: Save=2.118157ms
+[2015.03.02-20.34.23:029][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face9865CA534A7AEC3D26F7A1BC680E2A83.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_face.uasset'
+[2015.03.02-20.34.23:037][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_face_2_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_face_2_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:042][906]LogSavePackage: Save=2.079607ms
+[2015.03.02-20.34.23:042][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_2_tga46C8025244C6E1517C20C28C8AC81563.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_face_2_tga.uasset'
+[2015.03.02-20.34.23:050][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_face_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_face_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:054][906]LogSavePackage: Save=2.060332ms
+[2015.03.02-20.34.23:054][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_face_tga76ED621842E69A75802D199EA9B73B8B.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_face_tga.uasset'
+[2015.03.02-20.34.23:064][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_hair" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hair.uasset" SILENT=true
+[2015.03.02-20.34.23:069][906]LogSavePackage: Save=2.169357ms
+[2015.03.02-20.34.23:069][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hairF87874F7405381DA27E4EC95F1D3E6F2.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hair.uasset'
+[2015.03.02-20.34.23:078][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_hair_2_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hair_2_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:082][906]LogSavePackage: Save=2.070271ms
+[2015.03.02-20.34.23:082][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_2_tga623EA0D643B693216256558CCC5AA62F.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hair_2_tga.uasset'
+[2015.03.02-20.34.23:091][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_hair_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hair_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:095][906]LogSavePackage: Save=2.141047ms
+[2015.03.02-20.34.23:095][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hair_tga2D55DA7D48FA1D5BDC103DA811F97198.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hair_tga.uasset'
+[2015.03.02-20.34.23:104][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_hands" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hands.uasset" SILENT=true
+[2015.03.02-20.34.23:108][906]LogSavePackage: Save=2.079908ms
+[2015.03.02-20.34.23:108][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hands1388BBBF433CAE064AA0CAB48DB90DD1.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hands.uasset'
+[2015.03.02-20.34.23:116][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_hands_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hands_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:121][906]LogSavePackage: Save=2.123578ms
+[2015.03.02-20.34.23:121][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_hands_tga983C4F584F92286FA42850BC932B380E.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_hands_tga.uasset'
+[2015.03.02-20.34.23:130][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_weapon" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_weapon.uasset" SILENT=true
+[2015.03.02-20.34.23:135][906]LogSavePackage: Save=2.106713ms
+[2015.03.02-20.34.23:136][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weaponF45CE07340DDFE11E6AE28A1B094D905.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_weapon.uasset'
+[2015.03.02-20.34.23:144][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_weapon_2_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_weapon_2_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:149][906]LogSavePackage: Save=2.175983ms
+[2015.03.02-20.34.23:149][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_2_tga9AA881FF491740BD99B740B5EF799A55.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_weapon_2_tga.uasset'
+[2015.03.02-20.34.23:157][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/slow_weapon_tga" FILE="C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_weapon_tga.uasset" SILENT=true
+[2015.03.02-20.34.23:162][906]LogSavePackage: Save=2.083522ms
+[2015.03.02-20.34.23:162][906]LogSavePackage: Moving 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Saved/slow_weapon_tgaBBD16D154254A61B9D338F9D698330D7.tmp' to 'C:/Users/Marvin/Documents/GitHub/HdRaufUE4/MyProject2/Content/StarterContent/slow_weapon_tga.uasset'
+[2015.03.02-20.34.23:579][907]Cmd: QUIT_EDITOR
+[2015.03.02-20.34.23:775][907]LogExit: Preparing to exit.
+[2015.03.02-20.34.24:600][907]LogExit: Editor shut down
+[2015.03.02-20.34.24:601][907]LogExit: Transaction tracking system shut down
+[2015.03.02-20.34.24:601][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000275A105620
+[2015.03.02-20.34.24:602][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000274121B1A0
+[2015.03.02-20.34.24:602][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000273F2E1E40
+[2015.03.02-20.34.24:644][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027483AEAC0
+[2015.03.02-20.34.24:644][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027483AD120
+[2015.03.02-20.34.24:644][907]LogExit: Object subsystem successfully closed.
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.02-20.34.24:694][907]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.02-20.34.25:029][907]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.02-20.34.25:030][907]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.02-20.34.25:122][907]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.02-20.34.25:122][907]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.02-20.34.25:122][907]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.02-20.34.25:123][907]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.02-20.34.25:363][907]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.02-20.34.25:364][907]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.02-20.34.25:365][907]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.02-20.34.25:466][907]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.02-20.34.25:466][907]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.02-20.34.25:468][907]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.02-20.34.25:468][907]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.02-20.34.25:469][907]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.02-20.34.25:472][907]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.02-20.34.25:516][907]LogDerivedDataCache: Shutdown
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.02-20.34.25:516][907]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.02-20.34.25:521][907]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.02-20.34.25:522][907]LogExit: Exiting.
+[2015.03.02-20.34.25:534][907]Log file closed, 03/02/15 21:34:25
